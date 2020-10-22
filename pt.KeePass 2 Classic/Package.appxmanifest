@@ -7,13 +7,13 @@
   IgnorableNamespaces="uap rescap">
 
   <Identity
-    Name="684002cb-6c3e-45df-9bae-82a1e6ff9233"
-    Publisher="CN=anpan"
-    Version="1.0.0.0" />
+    Name="Panteamltd.pt.KeePass2Classic"
+    Publisher="CN=3EFBB94F-6436-49C0-8C0B-6FD76C5B3BB6"
+    Version="2.46.0.0" />
 
   <Properties>
     <DisplayName>pt.KeePass 2 Classic</DisplayName>
-    <PublisherDisplayName>anpan</PublisherDisplayName>
+    <PublisherDisplayName>Panteam_ltd</PublisherDisplayName>
     <Logo>Images\StoreLogo.png</Logo>
   </Properties>
 

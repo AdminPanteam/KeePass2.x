@@ -1,6 +1,0 @@
-MainPackage=C:\Users\anpan\Documents\Projects\temp\KeePass2.x-VS2019\pt.KeePass 2 Classic\bin\AnyCPU\Debug\pt.KeePass 2 Classic_1.0.0.0_AnyCPU_Debug.appx
-SymbolPackage=C:\Users\anpan\Documents\Projects\temp\KeePass2.x-VS2019\pt.KeePass 2 Classic\obj\Debug\Symbols\pt.KeePass 2 Classic_1.0.0.0_AnyCPU_Debug.appxsym
-ResourcePack=C:\Users\anpan\Documents\Projects\temp\KeePass2.x-VS2019\pt.KeePass 2 Classic\bin\AnyCPU\Debug\pt.KeePass 2 Classic_1.0.0.0_scale-100.appx
-ResourcePack=C:\Users\anpan\Documents\Projects\temp\KeePass2.x-VS2019\pt.KeePass 2 Classic\bin\AnyCPU\Debug\pt.KeePass 2 Classic_1.0.0.0_scale-125.appx
-ResourcePack=C:\Users\anpan\Documents\Projects\temp\KeePass2.x-VS2019\pt.KeePass 2 Classic\bin\AnyCPU\Debug\pt.KeePass 2 Classic_1.0.0.0_scale-150.appx
-ResourcePack=C:\Users\anpan\Documents\Projects\temp\KeePass2.x-VS2019\pt.KeePass 2 Classic\bin\AnyCPU\Debug\pt.KeePass 2 Classic_1.0.0.0_scale-400.appx
