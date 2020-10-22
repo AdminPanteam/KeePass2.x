@@ -84,7 +84,6 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
-    <None Include="GitHubActionsWorkflow.pfx" />
     <Content Include="Images\LargeTile.scale-100.png" />
     <Content Include="Images\LargeTile.scale-125.png" />
     <Content Include="Images\LargeTile.scale-150.png" />

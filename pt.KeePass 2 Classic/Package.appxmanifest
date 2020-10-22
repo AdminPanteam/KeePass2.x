@@ -9,7 +9,7 @@
   <Identity
     Name="Panteamltd.pt.KeePass2Classic"
     Publisher="CN=3EFBB94F-6436-49C0-8C0B-6FD76C5B3BB6"
-    Version="2.46.0.0" />
+    Version="2.46.15.0" />
 
   <Properties>
     <DisplayName>pt.KeePass 2 Classic</DisplayName>
