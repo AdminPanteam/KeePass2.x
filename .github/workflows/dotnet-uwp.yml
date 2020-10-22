@@ -73,7 +73,7 @@ jobs:
       run: |
         [xml]$manifest= get-content ".\$env:Wap_Project_Directory\Package.appxmanifest"
         $manifest.Package.Identity.Version = "$env:Major.$env:Minor.$env:Build.0"    
-        $manifest.save("Msix/Package.appxmanifest")
+        $manifest.save("$env:Wap_Project_Directory/Package.appxmanifest")
       shell: pwsh
       
     # Add  MSBuild to the PATH: https://github.com/microsoft/setup-msbuild
