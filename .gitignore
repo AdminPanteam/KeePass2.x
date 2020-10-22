@@ -33,5 +33,5 @@ Translation/TrlUtil.vshost.exe.manifest
 .vscode/
 *.nupkg
 *.snupkg
-AppPackages/*
-BundleArtifacts/*
+*/AppPackages/*
+*/BundleArtifacts/*
