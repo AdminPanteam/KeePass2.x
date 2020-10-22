@@ -59,6 +59,9 @@ jobs:
       Solution_Name: KeePass.sln
       Wap_Project_Directory: pt.KeePass 2 Classic
       Wap_Project_Path: pt.KeePass 2 Classic/pt.KeePass 2 Classic.wapproj
+      Major: 2
+      Minor: 46
+      Build: ${{ github.run_id }}0${{ github.run_number }}
 
     steps:
     - name: Checkout
@@ -66,12 +69,13 @@ jobs:
       with:
         fetch-depth: 0
 
-    # Install the .NET Core workload
-    #- name: Install .NET Core
-    #  uses: actions/setup-dotnet@v1
-    #  with:
-    #    dotnet-version: 3.1.101
-
+    - name: Update version
+      run: |
+        [xml]$manifest= get-content ".\$env:Wap_Project_Directory\Package.appxmanifest"
+        $manifest.Package.Identity.Version = "$env:Major.$env:Minor.$env:Build.0"    
+        $manifest.save("Msix/Package.appxmanifest")
+      shell: pwsh
+      
     # Add  MSBuild to the PATH: https://github.com/microsoft/setup-msbuild
     - name: Setup MSBuild.exe
       uses: microsoft/setup-msbuild@v1
