@@ -61,7 +61,7 @@ jobs:
       Wap_Project_Path: pt.KeePass 2 Classic/pt.KeePass 2 Classic.wapproj
       Major: 2
       Minor: 46
-      Build: ${{ github.run_id }}0${{ github.run_number }}
+      Build: ${{ github.run_id }}
 
     steps:
     - name: Checkout
