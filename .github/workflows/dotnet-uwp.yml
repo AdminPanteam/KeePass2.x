@@ -57,7 +57,7 @@ jobs:
 
     env:
       Solution_Name: KeePass.sln
-      Wap_Project_Directory: pt.KeePass 2 Classic/package
+      Wap_Project_Directory: pt.KeePass 2 Classic
       Wap_Project_Path: pt.KeePass 2 Classic/pt.KeePass 2 Classic.wapproj
 
     steps:
